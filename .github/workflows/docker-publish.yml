@@ -26,8 +26,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ghcr.io/${{ github.repository }}/stackoverflow .
+          docker build -t ghcr.io/daniyal-i/skills-publish-docker-images/stackoverflow .
       
       - name: Push Docker image
         run: |
-          docker push ghcr.io/${{ github.repository }}/stackoverflow
+          docker push ghcr.io/daniyal-i/skills-publish-docker-images/stackoverflow
